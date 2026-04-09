@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif
+}
+
+body {
+    display: flex;
+    background-image: rgb(0.0.0.5);
+}
+p{
+    margin: 10px;
+}
+
+.bloco {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 100vh;
+    width: 40vw;
+    gap: 10px;
+    background: #0b0b0f; /* fundo escuro */
+
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+}
+
+
+.bolinha {
+    margin: 10px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+
+    background: linear-gradient(to top right,
+            #4158D0,
+            #C850C0 46%,
+            #FFCC70)
+}
+
+input {
+    width: 400px;
+    padding: 12px;
+    border: 2px solid transparent;
+    outline: none;
+    background: #1e1e1e;
+    color: white;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    
+
+}
+
+input:focus {
+    border: 2px solid #ff7b00c4;
+
+    box-shadow:
+        0 0 5px #ffb168,
+        0 0 10px #ff84ff,
+        0 0 20px rgba(255, 135, 255, 0.6);
+
+    background: #1e1e1e;
+}
+
+
+
+.card {
+    margin: 50px;
+    gap: 10px;
+    color: #fff;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.nlogin a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+ 
+}
+.esqueci a{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    
+}
+button{
+    background-color: #ffb168,
+        0 0 10px #ff84ff,
+        0 0 20px rgba(255, 135, 255, 0.6); ;
+}
+.imagem {
+    width: 60%;
+    background-image: url('img/barn-middle-snow-covered-land.jpg'); /* coloca sua imagem aqui */
+    background-size: cover;
+    background-position: center;
+}
+
+
